@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>New Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-center text-white min-h-screen h-auto w-auto">
+    <main class="main-content overflow-y-auto max-h-[calc(100vh-96px)]">
+        <div class="user w-40 h-40 mx-auto flex flex-col items-center justify-start text-center ml-4 mt-4"></div>
+
+        <div class="search-container flex flex-col items-center mt-4">
+            <div class="search-bar w-full flex justify-center">
+                <form id="searchForm" action="/search" method="get" class="flex justify-center items-center">
+                    <input type="text" name="q" placeholder="Search" class="input h-8 w-52 rounded-full px-4 py-2 shadow-md
+                    mr-4 bg-gray-800 border-none text-white" required>
+                    <button type="submit" class="search-btn px-4 py-2 w-20 h-8 rounded-full bg-gradient-to-r from-teal-400 to-teal-200
+                    flex justify-center items-center bg-gray-800 shadow-md hover:bg-gradient-to-r hover:from-teal-500 hover:to-teal-300">Search</button>
+                </form>
+            </div>
+            <div class="searches mt-4 bg-gray-800 rounded-full shadow-lg h-auto w-64 grid grid-cols-1"></div>
+        </div>
+
+        <a href="/login" class="login absolute left-1/2 top-2/3 transform -translate-x-1/2 -translate-y-1/2 px-9 py-3 rounded-full
+        bg-gradient-to-r from-teal-400 to-teal-200 text-lg bg-gray-800 shadow-md hover:bg-gradient-to-r
+        hover:from-teal-500 hover:to-teal-300">Login with Spotify</a>
+
+        <div class="lyrics w-full h-auto flex flex-wrap items-center pb-12 pl-28 pr-28 pt-40 leading-normal"></div>
+        <div class="gallery top-1/2 left-0 w-full min-h-80 h-auto flex flex-wrap justify-start items-center gap-20 overflow-x-auto px-4 pb-32 pt-24"></div>
+        <div class="playlist-container pb-24"></div>
+    </main>
+
+    <div class="bar fixed bottom-0 w-full h-24 shadow-xl flex items-center justify-between p-4 z-10">
+        <div class="container absolute flex flex-col items-start">
+            <div class="track-container">
+                <div class="track-title text-left"></div>
+                <div class="track-artist text-left"></div>
+            </div>
+            <div class="progress-container flex items-center justify-between">
+                <span class="current-time">0:00</span>
+                <input type="range" class="progress-bar rounded-full w-full" value="0" min="0" max="100">
+                <span class="total-time">0:00</span>
+            </div>
+        </div>
+        <img class="track-img w-16 h-16" src="">
+        <i class="togglePlay far fa-pause-circle text-4xl absolute left-1/2 -translate-x-1/2 mb-8"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

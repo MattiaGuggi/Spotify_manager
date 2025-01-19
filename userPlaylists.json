@@ -1,0 +1,138 @@
+{
+  "href": "https://api.spotify.com/v1/users/ew9lsh3piutatj6n4cvw2z2k4/playlists?offset=0&limit=100",
+  "limit": 100,
+  "next": null,
+  "offset": 0,
+  "previous": null,
+  "total": 3,
+  "items": [
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/7odGNJ7QQVGmxLfHRLKpX7"
+      },
+      "href": "https://api.spotify.com/v1/playlists/7odGNJ7QQVGmxLfHRLKpX7",
+      "id": "7odGNJ7QQVGmxLfHRLKpX7",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d00001e02927f72f3739f256fb01d1470ab67616d00001e02cc79eb11514c20ac210d0151ab67616d00001e02f2a39a7b2f9b4eb6256d3787f9cc2e5d29b97a944a08331834c620a44da47e08",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d00001e02927f72f3739f256fb01d1470ab67616d00001e02cc79eb11514c20ac210d0151ab67616d00001e02f2a39a7b2f9b4eb6256d3787f9cc2e5d29b97a944a08331834c620a44da47e08",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d00001e02927f72f3739f256fb01d1470ab67616d00001e02cc79eb11514c20ac210d0151ab67616d00001e02f2a39a7b2f9b4eb6256d3787f9cc2e5d29b97a944a08331834c620a44da47e08",
+          "width": 60
+        }
+      ],
+      "name": "White Girl Music",
+      "owner": {
+        "display_name": "paanda",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/ew9lsh3piutatj6n4cvw2z2k4"
+        },
+        "href": "https://api.spotify.com/v1/users/ew9lsh3piutatj6n4cvw2z2k4",
+        "id": "ew9lsh3piutatj6n4cvw2z2k4",
+        "type": "user",
+        "uri": "spotify:user:ew9lsh3piutatj6n4cvw2z2k4"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAUtro+7e11aRktm2kV9Sxm3embQnW",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/7odGNJ7QQVGmxLfHRLKpX7/tracks",
+        "total": 68
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:7odGNJ7QQVGmxLfHRLKpX7"
+    },
+    {
+      "collaborative": false,
+      "description": "",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/2GQKQHg26mvlrG873ilxNe"
+      },
+      "href": "https://api.spotify.com/v1/playlists/2GQKQHg26mvlrG873ilxNe",
+      "id": "2GQKQHg26mvlrG873ilxNe",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://mosaic.scdn.co/640/ab67616d00001e023c0eada9fb45ba9d43116f1dab67616d00001e02402bbf743838dd9f7f0fa376ab67616d00001e027a6af293d78ef922da49dceeab67616d00001e02d75f26a9f31b06342ec6aa43",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://mosaic.scdn.co/300/ab67616d00001e023c0eada9fb45ba9d43116f1dab67616d00001e02402bbf743838dd9f7f0fa376ab67616d00001e027a6af293d78ef922da49dceeab67616d00001e02d75f26a9f31b06342ec6aa43",
+          "width": 300
+        },
+        {
+          "height": 60,
+          "url": "https://mosaic.scdn.co/60/ab67616d00001e023c0eada9fb45ba9d43116f1dab67616d00001e02402bbf743838dd9f7f0fa376ab67616d00001e027a6af293d78ef922da49dceeab67616d00001e02d75f26a9f31b06342ec6aa43",
+          "width": 60
+        }
+      ],
+      "name": "18esimo",
+      "owner": {
+        "display_name": "paanda",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/ew9lsh3piutatj6n4cvw2z2k4"
+        },
+        "href": "https://api.spotify.com/v1/users/ew9lsh3piutatj6n4cvw2z2k4",
+        "id": "ew9lsh3piutatj6n4cvw2z2k4",
+        "type": "user",
+        "uri": "spotify:user:ew9lsh3piutatj6n4cvw2z2k4"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAAxbdUrQU8G+jUmWQJgADk8grm8Wb0",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/2GQKQHg26mvlrG873ilxNe/tracks",
+        "total": 397
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:2GQKQHg26mvlrG873ilxNe"
+    },
+    {
+      "collaborative": false,
+      "description": "La più solida di tutte le playlist",
+      "external_urls": {
+        "spotify": "https://open.spotify.com/playlist/6kZiAaTqC0ssXzuW4mEvow"
+      },
+      "href": "https://api.spotify.com/v1/playlists/6kZiAaTqC0ssXzuW4mEvow",
+      "id": "6kZiAaTqC0ssXzuW4mEvow",
+      "images": [
+        {
+          "height": null,
+          "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846bd7f08ccd4f8fb70f8d0909",
+          "width": null
+        }
+      ],
+      "name": "playlist SOLIDA",
+      "owner": {
+        "display_name": "paanda",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/user/ew9lsh3piutatj6n4cvw2z2k4"
+        },
+        "href": "https://api.spotify.com/v1/users/ew9lsh3piutatj6n4cvw2z2k4",
+        "id": "ew9lsh3piutatj6n4cvw2z2k4",
+        "type": "user",
+        "uri": "spotify:user:ew9lsh3piutatj6n4cvw2z2k4"
+      },
+      "primary_color": null,
+      "public": true,
+      "snapshot_id": "AAAQi/WMIbemcicBOpEZaNpBp3w3ZNEN",
+      "tracks": {
+        "href": "https://api.spotify.com/v1/playlists/6kZiAaTqC0ssXzuW4mEvow/tracks",
+        "total": 826
+      },
+      "type": "playlist",
+      "uri": "spotify:playlist:6kZiAaTqC0ssXzuW4mEvow"
+    }
+  ]
+}
